@@ -323,35 +323,35 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
-  - title:
-      text: The Best of Both Worlds
-      color: text-dark
-      type: TitleBlock
-    subtitle: Peaceful suburban sanctuary, minutes from vibrant city life
-    # text: >
-    #   Peaceful suburban sanctuary, minutes from vibrant city life
-    actions:
-      - label: Details Coming...
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Button
-    media:
-      url: /images/roundabout-flyover.jpg
-      altText: Central Ohio
-      styles:
-        self:
-          borderColor: border-neutral
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: ImageBlock
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        alignItems: center
-    type: GenericSection
+  # - title:
+  #     text: The Best of Both Worlds
+  #     color: text-dark
+  #     type: TitleBlock
+  #   subtitle: Peaceful suburban sanctuary, minutes from vibrant city life
+  #   # text: >
+  #   #   Peaceful suburban sanctuary, minutes from vibrant city life
+  #   actions:
+  #     - label: Details Coming...
+  #       url: /
+  #       icon: arrowRight
+  #       iconPosition: right
+  #       style: primary
+  #       type: Button
+  #   media:
+  #     url: /images/roundabout-flyover.jpg
+  #     altText: Central Ohio
+  #     styles:
+  #       self:
+  #         borderColor: border-neutral
+  #         borderStyle: solid
+  #         borderWidth: 1
+  #         borderRadius: large
+  #     type: ImageBlock
+  #   colors: bg-neutral-fg-dark
+  #   styles:
+  #     self:
+  #       alignItems: center
+  #   type: GenericSection
   # - title: Divider
   #   colors: bg-light-fg-dark
   #   styles:
