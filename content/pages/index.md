@@ -289,8 +289,8 @@ sections:
     # text: >
     #   Make your home in Florida
     actions:
-      - label: Details Coming...
-        url: /
+      - label: View Gallery
+        url: "#gallery:gulf-coast-property"
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -331,8 +331,8 @@ sections:
   #   # text: >
   #   #   Peaceful suburban sanctuary, minutes from vibrant city life
   #   actions:
-  #     - label: Details Coming...
-  #       url: /
+  #     - label: View Gallery
+  #       url: "#gallery:gulf-coast-property"
   #       icon: arrowRight
   #       iconPosition: right
   #       style: primary

@@ -1,0 +1,121 @@
+{
+  "galleries": [
+    {
+      "id": "gulf-coast-property",
+      "title": "Gulf Coast Luxury Retreat",
+      "images": [
+        {
+          "url": "/images/dunes/dunes-0.jpg",
+          "altText": "Gulf Coast property - dunes 0",
+          "caption": "Dunes Overview"
+        },
+        {
+          "url": "/images/dunes/IMG_4533.png",
+          "altText": "Gulf Coast property - dunes 4533",
+          "caption": "Main Bedroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4534.png",
+          "altText": "Gulf Coast property - dunes 4534",
+          "caption": "Main Bathroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4536.png",
+          "altText": "Gulf Coast property - dunes 4536",
+          "caption": "Main Bathroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4537.png",
+          "altText": "Gulf Coast property - dunes 4537",
+          "caption": "Main Bathroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4538.png",
+          "altText": "Gulf Coast property - dunes 4538",
+          "caption": "Kitchen"
+        },
+        {
+          "url": "/images/dunes/IMG_4539.png",
+          "altText": "Gulf Coast property - dunes 4539",
+          "caption": "Kitchen"
+        },
+        {
+          "url": "/images/dunes/IMG_4540.png",
+          "altText": "Gulf Coast property - dunes 4540",
+          "caption": "Living Room"
+        },
+        {
+          "url": "/images/dunes/IMG_4541.png",
+          "altText": "Gulf Coast property - dunes 4541",
+          "caption": "Dining Area"
+        },
+        {
+          "url": "/images/dunes/IMG_4542.png",
+          "altText": "Gulf Coast property - dunes 4542",
+          "caption": "Lenai View"
+        },
+        {
+          "url": "/images/dunes/IMG_4543.png",
+          "altText": "Gulf Coast property - dunes 4543",
+          "caption": "Living Room"
+        },
+        {
+          "url": "/images/dunes/IMG_4544.png",
+          "altText": "Gulf Coast property - dunes 4544",
+          "caption": "Foyeur"
+        },
+        {
+          "url": "/images/dunes/IMG_4545.png",
+          "altText": "Gulf Coast property - dunes 4545",
+          "caption": "Main Bedroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4546.png",
+          "altText": "Gulf Coast property - dunes 4546",
+          "caption": "Bedroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4548.png",
+          "altText": "Gulf Coast property - dunes 4548",
+          "caption": "Foyeur"
+        },
+        {
+          "url": "/images/dunes/IMG_4549.png",
+          "altText": "Gulf Coast property - dunes 4549",
+          "caption": "Laundry Room"
+        },
+        {
+          "url": "/images/dunes/IMG_4550.png",
+          "altText": "Gulf Coast property - dunes 4550",
+          "caption": "Bedroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4551.png",
+          "altText": "Gulf Coast property - dunes 4551",
+          "caption": "Bedroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4552.png",
+          "altText": "Gulf Coast property - dunes 4552",
+          "caption": "Bathroom"
+        },
+        {
+          "url": "/images/dunes/IMG_4553.png",
+          "altText": "Gulf Coast property - dunes 4553",
+          "caption": "Bathroom Shower"
+        }
+      ]
+    },
+    {
+      "id": "ohio-property",
+      "title": "Central Ohio Suburban Sanctuary",
+      "images": [
+        {
+          "url": "/images/roundabout-flyover.jpg",
+          "altText": "Peaceful neighborhood",
+          "caption": "Serene suburban living"
+        }
+      ]
+    }
+  ]
+}

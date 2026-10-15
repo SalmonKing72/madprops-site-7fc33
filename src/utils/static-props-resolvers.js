@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import {
     getRootPagePath,
     resolveReferences,
@@ -9,10 +11,27 @@ import {
     mapDeepAsync
 } from './data-utils';
 
+// Load galleries data
+function loadGalleries() {
+    try {
+        const galleriesPath = path.join(process.cwd(), 'content', 'data', 'galleries.json');
+        const galleriesData = fs.readFileSync(galleriesPath, 'utf8');
+        const parsed = JSON.parse(galleriesData);
+        return parsed.galleries || [];
+    } catch (error) {
+        console.warn('Could not load galleries.json:', error.message);
+        return [];
+    }
+}
+
 export function resolveStaticProps(urlPath, data) {
     // get root path of paged path: /blog/page/2 => /blog
     const rootUrlPath = getRootPagePath(urlPath);
     const { __metadata, ...rest } = data.pages.find((page) => page.__metadata.urlPath === rootUrlPath);
+
+    // Load galleries
+    const galleries = loadGalleries();
+
     const props = {
         page: {
             __metadata: {
@@ -22,7 +41,8 @@ export function resolveStaticProps(urlPath, data) {
             },
             ...rest
         },
-        ...data.props
+        ...data.props,
+        galleries // Add galleries to all pages
     };
     return mapDeepAsync(
         props,
