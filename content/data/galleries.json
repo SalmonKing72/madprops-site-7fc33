@@ -7,102 +7,182 @@
         {
           "url": "/images/dunes/dunes-0.jpg",
           "altText": "Gulf Coast property - dunes 0",
-          "caption": "Dunes Overview"
+          "caption": "Dunes Overview",
+          "thumbnailUrl": "/images/thumbnails/dunes-0-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAgEAABAwIHAAAAAAAAAAAAAAABAAMEESECBQYTFkFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAZEQACAwEAAAAAAAAAAAAAAAABAgADBCH/2gAMAwEAAhEDEQA/AKsj1e/LDodlvbuC5saK3mM/qY5Twoin13utpUHkFUAUT//Z",
+          "width": 640,
+          "height": 426
         },
         {
           "url": "/images/dunes/IMG_4533.png",
           "altText": "Gulf Coast property - dunes 4533",
-          "caption": "Main Bedroom"
+          "caption": "Main Bedroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4533-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABBUlEQVR4nAXBW0vCYACA4e/n2Y1FIRmt8pRhqXmaQpYxFU/NzNMMddPppuZACiopoqv+19vziGJ/QlUzaI9mGNYK+8XBXlpYcwNRGtqokxXd2ZqObtEemzzP5sydNaJirBhutkzfvqgPDO5aA1TdZPH5jahOFky3vyx//qiPbQodnebYxHn/QNz3RjwtX+k5WxRtjtLR6WoaG3uEkNU+sqqRrvVIlh65KTVoVsuYLQWRUhqEM3mkiyhS4Jxg4IxsNEgtF0Fk8wVisStCPi+h412ChztEJDdxvwdxK8fJxfykQwdkAm6Spy4SJy6uJReiLIeppH3Ukkc8pLw0Eh4qsX2Kl3v8A/WFtCyCypCfAAAAAElFTkSuQmCC",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4534.png",
           "altText": "Gulf Coast property - dunes 4534",
-          "caption": "Main Bathroom"
+          "caption": "Main Bathroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4534-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEElEQVR4nAXB708BcQDA4e+/1Jte9qa2pq021WZsveCaGO68uBVHrBz9VEeNRoWMCZO2iNRku1ot9S99eh7xZb4zGb8yHPR57HZ46LRpNmpUSkVEo16mWrmhUr6mXr9j8PzE+O2F0bCPODneQ09opFIx8nmD0ajP9Oebv98pQpFdyAEnoVCAbPaIXq+LaU74/DAR0YiCrofJZA+5LeVotqq0WzVa91VEKhnBMA4oFDIUiwaFqzQX5/ukU2FEUtc4SyfIXR5jnMZJxmS04AaqZxWhbfuIhnzs7nhQ/Q4UaYWg04IqWRCyx468ZSMgWXE7FnDb5lBdiySUdUTQ68AvreGyzWNfmkGyzhL1LpONb/IPuoO2hdgS+noAAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4536.png",
           "altText": "Gulf Coast property - dunes 4536",
-          "caption": "Main Bathroom"
+          "caption": "Main Bathroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4536-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+UlEQVR4nB3JW0vCYACA4e+P1lXQTUSJYAst9fOQh+nwgDrnmOepy8kYaZ5YRQleRP/oDb19HrFfr3CdKabRol5VadRURj0d37UR/mLGqG+eo5iXVMoZRr026zcXMbO7mEYNtSBJS4VSIYE97PC5X53Swmhp5F9ipGUErSQ52VewRjizPnqzTDqlkIiH0dQkzuSUG8Tm3WNqdymXUufMZR8ZD9oE2yXi+PNBsFtiderIeJiYckO7obLy54jfQ8Df8RvPGVLMRnkIXVFRk7yOLcTO7XHYengTi2rhicjtBbnne4xKBjHXs2wcE3fQRNck0btLMso1mgzxD089xK3eRVjeAAAAAElFTkSuQmCC",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4537.png",
           "altText": "Gulf Coast property - dunes 4537",
-          "caption": "Main Bathroom"
+          "caption": "Main Bathroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4537-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9ElEQVR4nCXJu07CUACA4fOQbq4muhjDIo2JkoBAoyJCW8vNll6PBWlpuQTigDGoQX2n3xSnb/jEbOIRR08EtkanXcXpN8lin9/vLWKZSrKJi3QMOloNZ9AiS0J+dlvEejFmPg2QnrlP19LIEsnu6z3PF+ZpSJinXscfGqRTyefHG+J1lbDI5H8adXz3kWQSsNms84yZxj6OrdN+qOyNpM16lSGWs4jRs8XQyrOKNzQIvR6zdIyQXo++2UBr1qiXFbr6LQPznmTkIcxWlUZNQS0VKJ2foN1c0W1WSIIe4u66SLl4zMXpIYWjA9TLMwxVIXU1/gACdsdSACkCVgAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4538.png",
           "altText": "Gulf Coast property - dunes 4538",
-          "caption": "Kitchen"
+          "caption": "Kitchen",
+          "thumbnailUrl": "/images/thumbnails/IMG_4538-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDElEQVR4nBXJSUsCYQCA4e9/tU0OmYR4sEPYkAwVkU3kktao04K5BmKLWi4zQyWa2gIKSgudik79pjc8PYdHZPJZ0rksZ9kc6fw5hWKJi3KF8m0NYdp1mnaTumXRsO+omRNtTNtCdNoWg+EL449Pvr5/GYzG9J+6tO6biJtKkU6vzev4nbefP56HI3r9R1p2FZE6NShdXVIxH6h3R5TNNtVag+tSAZGIJzBOUujHGfaSebYjR4RiSXT9cJIGum4QDusoqobbq+BZ9rG6piIOIlH0WJz9UBRFUZFlJ7OSgyW3BxHWdogGg4Q0Db/Ph2tBRpqbwbnoRATW/exubaBtqvhXvHhcDmRpinlpmn+kvq8AEksUCgAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4539.png",
           "altText": "Gulf Coast property - dunes 4539",
-          "caption": "Kitchen"
+          "caption": "Kitchen",
+          "thumbnailUrl": "/images/thumbnails/IMG_4539-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nAXB3U6CAACAUV61Ntvaaq5VVuYSHKgpiIgGTAEVA/+F5k9ppV21dVGP9HWO8LKcMgi7tDsWul7GbFQw6mVMU8VxmkShTxKHCJvdhvF8ShANMAyVRv2RlqniujaTyZDVOmF/2CKsdp9EswXd55CiUkCWctSqJRzHYp4kvL1/8PP7h+AP57jRnP44oaI1kJUyer2J4wUMxjHhbEn8ukcomR6GO8IfrdFbPqrRwfImOP0Yy59itiPa/RnClaRRsUJ68RfeaIs/3hEtvwkWBxp2gFxUEUUF4fwyS07RqdkhtacBhh3i9Ba0nIBqRUO8z5K/vUE4SaVIX1xz91AkJ1URZY1SWUeRCuQzaW7OjsmcHvEPKMDe6yzN2mkAAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 600
         },
         {
           "url": "/images/dunes/IMG_4540.png",
           "altText": "Gulf Coast property - dunes 4540",
-          "caption": "Living Room"
+          "caption": "Living Room",
+          "thumbnailUrl": "/images/thumbnails/IMG_4540-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nAXBW0vCYACA4e8fdhVdhXcpEZaFedzctAPOMCaFSmEQelGg5twh3YG2MtEOGv6gt+cR/X6XF2vAi2sy8m3Ggc1r6DANHUTgW7iBg+3bOK6F65l4nsF0MkSs1l8sfxaE83feQo+PcEroGbjWM2K53rD42zD7XRHNIj5nAaFvMhk/IYbeHCP6xoqWGI7DyBjQ63a4azUQ9ccRes+k1RvQbjdpNmqU5Szp1D5C1jvk6/fIWoOyInEhnXAYj7G7s4Wo3DyQqd6SVi6Rijk05ZTC0R6J2DaiWNVJKRqpYhmpVELXVDQ1Q/44gTjInxHPVEjmFCRV5bpW5uq8gJxN8g/eR8chBgGLrQAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4541.png",
           "altText": "Gulf Coast property - dunes 4541",
-          "caption": "Dining Area"
+          "caption": "Dining Area",
+          "thumbnailUrl": "/images/thumbnails/IMG_4541-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCklEQVR4nAXBSUsCYQCA4e//RUGUdmjEUQLz4IJlKTq2eBhrNFtwN8dxGZuMiVQoswxJy4uX/tDb84ikdk1MzaFoeTLFEjeNOoVWk3K3g9BqDfL3OsWWQaXbotwxqPVMDNtG6C+vPH1MGc0+sYY2umXStp8ZzhaIh+mS0e+Kt58FutUlVypyVW3SHn0hqoMZ7fEcYzgmUygTjKfwR1PEMwVE7nFK3pqQrpgEFJVNaY81p8yWHERc9udk+98k7kx8x2nWHRIbDhfbLh8iO/jjwl5xeN3DE07ilGS8/jCBo3PEWW9Jov6O//QWyRdk1+3BH4pyoKiIWG1CUOsgR07YcXuRZA/7oSgRReUfLvu69OnmjcMAAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4542.png",
           "altText": "Gulf Coast property - dunes 4542",
-          "caption": "Lenai View"
+          "caption": "Lenai View",
+          "thumbnailUrl": "/images/thumbnails/IMG_4542-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOUlEQVR4nAXBzy9CAQDA8fdHmAubrdna4mC5GIapg5dQ7Xm0Yk1ea+ql0g8VanuasKFltBpjsZoahw5MG2Pj5uTuX/n6fIQxh4zFp+LO5LGrKWyhDLbNLM7UMctxDftGgllvCEEKx1FPyxw8dUhW6yQqDWKVJlrjhf2bBpniOVuFIwRFK5Bvtqn//lHqfFF8/uCk/cbd9w8Pn+/ctlucN2oIrliYVLlE+bVN4f4a7fqS7OUZ5dYVtccq1bsShYtjBHFFwpMMkDjLEchFWE/4WA26CKcVkntBojthvBEVYVKax+Zfw5OOIqsKC+suzIuzzEgiJss0U6KZEZMJYUKSmPdv4E7t4ghuYlX8TEoyI6KV/iEjfYZBevQGhFGHE4svytL2IXOBNKIvzrjsxSjK9A4M063T09Wn4x/HwrmnsFC2OQAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 600
         },
         {
           "url": "/images/dunes/IMG_4543.png",
           "altText": "Gulf Coast property - dunes 4543",
-          "caption": "Living Room"
+          "caption": "Living Room",
+          "thumbnailUrl": "/images/thumbnails/IMG_4543-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABFUlEQVR4nAXByUoCcQDA4f8r9Ab1ABldPLXQchC6ZHQRKnTcprRJxWks2yxyxgaT0HKhQVExU1OSiArpUlCXnunX94nWY496d8B9b0il/0qx/0bxeUTp5RNRbz2Qt6pcFiqkbi2MWof84ANr9IOwmk2O0gabOxFWfQryqYnReKL9/YcoVGv4lSj2BQfj0/MsuWQSuQqdr1+EeVdmwyczaZ9jbGIK2+I6/kMda/iOSJsmUkBmecWJbcbBrFPCrRlcNYYIM5NGjcfw+QM4XW7WPHtsqTpqromw8hly+glnSQ0lEiMQTeLd19lOFRHtsknt5oJsSiURCxMMKUi7Gt74OaJbuqR+nSR7HEYLS/gkN55gCH/0gH+XaK2WDFtVOwAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4544.png",
           "altText": "Gulf Coast property - dunes 4544",
-          "caption": "Foyeur"
+          "caption": "Foyeur",
+          "thumbnailUrl": "/images/thumbnails/IMG_4544-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/UlEQVR4nAXB/VPBcADA4e9/qZzrCNObl6OTtlWjjUzMy8i8zbLbFZXURf3iX/v0PGLQKjNo3jLqGMwdC89pMbXrTLpVRKOqYDc13GGDz5cJH8GY1WLIcuEgKuUSdlvHd232uxX77ZLfTcB2HSAyWQm9UqLffWC3fuZv7fH9OubddxDnZzEqdwXstsHP25Qv3yYYmbh2DXGRCnN/fcqTecVmbuK1ZXpGgZZeRFxnIjTVJG49zapXxJKj3GQjyAUJYSoJ+loSrybh1094vAyhpEPI+Tiio0kMyglmhsSsmqJVCqPlDlDzUURTPcZSY/S1OEM9haUcUckfoubC/AN/J7Y1awd62AAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4545.png",
           "altText": "Gulf Coast property - dunes 4545",
-          "caption": "Main Bedroom"
+          "caption": "Main Bedroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4545-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEElEQVR4nB3D2UoCYQCA0f+lgqArCSSMygosEGwdtUAYHBPLcUEntBLLJbFFxTXTqSktDRGii7qIiHqiL+jAEcWmzkWjTeWmQ6Nzh94bYDy/YPQHiJNSg1z9lkr3kdbD4H+1a1BqthGB1DnZehd99Mbo44tWb0i2XCOeziB21Bip6yrG+JX3n18a9wZHuQJKKIKQ/Cpavkjracj485uy3ue4WCN4lEc4fQd4Ywni+UtOa120Qo3oWQU1dYVQIglkVUMOJ5GjKbyxNAEtQyiRQ+xHk3j2VDZ2ZeybLhzbbrYkF07JiQiGD/HICmvrDmzL89gWLaxYZ1hdMCN8ih+3U8Jus7JkMWE1TzE3PcmsaYI/k5C1n+xqJi4AAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4546.png",
           "altText": "Gulf Coast property - dunes 4546",
-          "caption": "Bedroom"
+          "caption": "Bedroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4546-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/klEQVR4nB3KyU7CUABA0fdvunNYyGTCSmNEowFjgg0NkSICgkzF0tfpVdoqhY2gmLj0066JZ31E9KKTWHWSWYO53UQ5XVRo8vrmIlLXIHUfWPodFuqZKBgShFO8SCLW8x4f8z6bd5N1KkkTmzCy8SIHsYkHbOIh29TicylZJhYqnCKDKeJnMWGbjP5D6j8Ru12U08PzRojf1YSvsEM01hjfl7AeywRjnVi2EN++wcrUcJrntMpZ+tUilnGB2ykjknYJ1TzFvCvQutyjfX1I7yZDt5JBWNUstpZH1grMtByj2yPaV/voJ7sIpefx9TxB/ZiwUUTWcgwqBzTOdvgDTp+3+VCKgx8AAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4548.png",
           "altText": "Gulf Coast property - dunes 4548",
-          "caption": "Foyeur"
+          "caption": "Foyeur",
+          "thumbnailUrl": "/images/thumbnails/IMG_4548-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABBUlEQVR4nAXBT0vCYADA4fcT1SGiQ3TQ6CISqyQQQUQQg6IkLNJIMxtUlskkdWXNzW2v++PGukXQV/v1PMI1JywDhySJWYYegbSIQ5+f3z9EIA2ipUsU+biuhXRmLKRNnHwjPDkjiiRR7CGlRSBNpG3gOjbCMnV8f04QuiykSeIZ+JaOoQ8R+qiPY3/i+zZy/kFoDnEmPd61R4T20mU6fsaaDhj3b9HUOk+tM9SbOqJ3d86o1+BrcM1Ds8JFNcdRUaFaziPUyxJau4J+X6VzmqNymGI/s4mSTSO6tRyvjQJvrSKdE4XywSbZ7TV2UusItbZH/yrPoFmgfbxLSdkgk1ohvbXKP0KVtiJLueZXAAAAAElFTkSuQmCC",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4549.png",
           "altText": "Gulf Coast property - dunes 4549",
-          "caption": "Laundry Room"
+          "caption": "Laundry Room",
+          "thumbnailUrl": "/images/thumbnails/IMG_4549-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nAXBW1MBYQCA4e8ndsVMNZppNCOVxmF3KImlUJJChF2sXYf9po1IB3WTm/pVb88j5NDE7DQwmncYzQpWt87T2OB9PkHIYY+B0WCg1xnoVaayx9dS8vvzgXAnfcZWGznScew2q1eH9fcLf+tPxNTp4467zF2LxbPFailZuBYTq42QdgtpPzJ1DJazIW+zEXbvgXIxjdCb17TqeTqNIqZxj2nUqN5ekksriFpFI59T0M6PyWailK9SlAopSvkkoqDFOIn5UUKbhINe4pFdErEA2lkYkT09JBn2kQx5UPc3UA88RIJbJCJ+REbd40LZ4Sa+TSHqIRXyEg14UY98/AOqArxvs01RTgAAAABJRU5ErkJggg==",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4550.png",
           "altText": "Gulf Coast property - dunes 4550",
-          "caption": "Bedroom"
+          "caption": "Bedroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4550-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABB0lEQVR4nB3OTUvCcADA4f9n6dghuhp4CDpEEAlREGFmqOhGFFOXzHzdizJx7o0pZqWFxqJL0KUO9dF+gYfn/ghHy+I384Sd4tpYL/HQk5gPrhFW9QJbyzFqlQi6MpEuMTFLTC0J0VQyGHUZW1dxdIVRWyLsFpmYMqJRLWAYDYaBjzcycU2FiSnxNLhBmC0F23PxFu/4kY/bU5n1ZeKggnCMMkHoMFu+sZhHvEZtll6ZOLxDOPUrPKvC83TI58rn78Pld2Xx/WIi7NsU/fLpOhGP7/lZ9vh6bBGHNUQnt4uaTlLLH2DXMkR6EV9LM1BOEFp6h8LhFuf721weJcimEpztbXKc3OAfag2t43Yc248AAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4551.png",
           "altText": "Gulf Coast property - dunes 4551",
-          "caption": "Bedroom"
+          "caption": "Bedroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4551-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nAXBu0qCYQCA4e8qGmtplCCQMIgWyxRpEhvSBB0MGyqSEO1AShF4ykQlUfP8K1oeS8k0SCNEbagbensekU8EKKXveMqHaUhhmsUQlbSX/MM1opgKUC9FeW+mGHWzDF8faUkhcjEPQkr56FRjjHs5/oYlZv0snXKQbOQCkYleUSsEGXXSTAcFRu04laSHyO0h4qUUolePM+5LfL/laBd8JPwn+M8tiMlHmelnjZ9Rg+5zgkTQiddlweswIH4nHWZfDQatNPGAC4dNz5FJxZlVi6hVk0iZe4I3dg5MWna2ljFvy3GalQj3pZ3TYwtGnZJNxSKqlXmMahl2wxpi37LLnl6Den2JVdkcGsUCNp0ct3WDf8n+tyxVV2NAAAAAAElFTkSuQmCC",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4552.png",
           "altText": "Gulf Coast property - dunes 4552",
-          "caption": "Bathroom"
+          "caption": "Bathroom",
+          "thumbnailUrl": "/images/thumbnails/IMG_4552-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nBXJXUvCUACA4fO76qrbboKiuizIkDAT0VALPzbdpunYpjujI9uZE7ckMcqL/t4bPbePKDLFYb/l92fP967gY61YxT5KjhFKTtmsFHkWo5chSs6IFg6BO0CEc5s0nhO/+wSezdh6xRl1MHp1hB+Y6MQjVi6+a2L0mxj9Bt2XKmIRTShyxdenZp0u8F0Dy2zx0q4gdBqy22oO+4wik6jQwZ10GQ2aiDT2yVchu01Enngk0iGYdnGMZ0QibXRko+WQpd/DsxoMOw+0areIyeCJmVnjrf/IsF2iVbmmXjqjenOKmP6nUcXq3NMsX1C6OuHu/Ijy5TF/X+G24F1PFwsAAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         },
         {
           "url": "/images/dunes/IMG_4553.png",
           "altText": "Gulf Coast property - dunes 4553",
-          "caption": "Bathroom Shower"
+          "caption": "Bathroom Shower",
+          "thumbnailUrl": "/images/thumbnails/IMG_4553-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAYAAAB4zEQNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6UlEQVR4nD2OyUrDUABF34fqSnBZpAhKKqmkJk2H5KUvzdS8TKQjSbEI9veOtAsXl3u4m3OF546Qc/M/y6mBf9tmI0SwGBP6FlFgEysH5VuspUUSTBA32MRzmkKxrddUG4lOFuh4hohXX9Ra0h8LLn1Dd9C0paLMPITyPqlyn/5U8PPd3nvfRDQ6QMzt97urrUK6o+bQJpy2Kf0uQ8iFSSgnRMqhygPqXNLtUq7nGpGubLJwShq69yNFsqRrY367EqFcg6X1imu+EDhvpJ7JUXtcthFiPHzCGDzyMXhgZjwTOUP2ic258vkDniW93WpcTiMAAAAASUVORK5CYII=",
+          "width": 800,
+          "height": 1067
         }
       ]
     },
@@ -113,7 +193,11 @@
         {
           "url": "/images/roundabout-flyover.jpg",
           "altText": "Peaceful neighborhood",
-          "caption": "Serene suburban living"
+          "caption": "Serene suburban living",
+          "thumbnailUrl": "/images/thumbnails/roundabout-flyover-thumb.webp",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIAAwQREgUhFVHw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAZEQACAwEAAAAAAAAAAAAAAAAAARIiMVH/2gAMAwEAAhEDEQA/AM+CuRTNRtlQdhfYlQcaEUNbXO2O/sREg6YKK4f/2Q==",
+          "width": 1920,
+          "height": 1440
         }
       ]
     }

@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import classNames from 'classnames';
+import Image from 'next/image';
 import { ImageGallery, ImageGalleryItem } from '../../../types/gallery';
 
 interface ImageModalProps {
@@ -57,6 +58,10 @@ export default function ImageModal({
 
   const currentImage = gallery.images[currentIndex];
 
+  // Get adjacent images for preloading
+  const prevImage = currentIndex > 0 ? gallery.images[currentIndex - 1] : null;
+  const nextImage = currentIndex < gallery.images.length - 1 ? gallery.images[currentIndex + 1] : null;
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm animate-fadeIn"
@@ -112,44 +117,77 @@ export default function ImageModal({
             />
           )}
         </div>
+
+        {/* Preload adjacent images in single view */}
+        {viewMode === 'single' && (
+          <>
+            {prevImage && !prevImage.isVideo && (
+              <link rel="preload" as="image" href={prevImage.url} />
+            )}
+            {nextImage && !nextImage.isVideo && (
+              <link rel="preload" as="image" href={nextImage.url} />
+            )}
+          </>
+        )}
       </div>
     </div>
   );
 }
 
 function GridView({ images, onImageClick }: { images: ImageGalleryItem[]; onImageClick: (index: number) => void }) {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className="relative aspect-[4/3] bg-gray-800 rounded-lg overflow-hidden cursor-pointer group"
-          onClick={() => onImageClick(index)}
-        >
-          {image.isVideo ? (
-            <video
-              src={image.url}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              muted
-              loop
-              playsInline
-            />
-          ) : (
-            <img
-              src={image.url}
-              alt={image.altText}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            />
-          )}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <div className="absolute bottom-0 left-0 right-0 p-4">
-              {image.caption && (
-                <p className="text-white text-sm font-medium">{image.caption}</p>
-              )}
+      {images.map((image, index) => {
+        const isPriority = index < 6; // Prioritize first 6 images
+        const imageUrl = image.thumbnailUrl || image.url;
+
+        return (
+          <div
+            key={index}
+            className="relative aspect-[4/3] bg-gray-800 rounded-lg overflow-hidden cursor-pointer group"
+            onClick={() => onImageClick(index)}
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
+          >
+            {image.isVideo ? (
+              <video
+                src={image.url}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                muted
+                loop
+                playsInline
+              />
+            ) : (
+              <Image
+                src={imageUrl}
+                alt={image.altText}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-300"
+                quality={75}
+                priority={isPriority}
+                loading={isPriority ? 'eager' : 'lazy'}
+                placeholder={image.blurDataURL ? 'blur' : 'empty'}
+                blurDataURL={image.blurDataURL}
+              />
+            )}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute bottom-0 left-0 right-0 p-4">
+                {image.caption && (
+                  <p className="text-white text-sm font-medium">{image.caption}</p>
+                )}
+              </div>
             </div>
+
+            {/* Preload full-res image on hover */}
+            {hoveredIndex === index && !image.isVideo && (
+              <link rel="preload" as="image" href={image.url} />
+            )}
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
@@ -163,6 +201,8 @@ interface SingleViewProps {
 }
 
 function SingleView({ image, onNext, onPrev, hasNext, hasPrev }: SingleViewProps) {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <div className="relative h-full flex flex-col items-center justify-center">
       {hasPrev && (
@@ -189,7 +229,7 @@ function SingleView({ image, onNext, onPrev, hasNext, hasPrev }: SingleViewProps
         </button>
       )}
 
-      <div className="max-w-full max-h-full flex items-center justify-center">
+      <div className="max-w-full max-h-full flex items-center justify-center relative">
         {image.isVideo ? (
           <video
             src={image.url}
@@ -201,11 +241,25 @@ function SingleView({ image, onNext, onPrev, hasNext, hasPrev }: SingleViewProps
             playsInline
           />
         ) : (
-          <img
-            src={image.url}
-            alt={image.altText}
-            className="max-w-full max-h-[70vh] object-contain rounded-lg"
-          />
+          <>
+            {isLoading && image.blurDataURL && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="animate-pulse text-white">Loading...</div>
+              </div>
+            )}
+            <Image
+              src={image.url}
+              alt={image.altText}
+              width={image.width || 1200}
+              height={image.height || 800}
+              className="max-w-full max-h-[70vh] object-contain rounded-lg w-auto h-auto"
+              quality={90}
+              priority
+              placeholder={image.blurDataURL ? 'blur' : 'empty'}
+              blurDataURL={image.blurDataURL}
+              onLoadingComplete={() => setIsLoading(false)}
+            />
+          </>
         )}
       </div>
 

@@ -3,6 +3,9 @@ export interface ImageGalleryItem {
   altText: string;
   caption?: string;
   thumbnailUrl?: string;
+  blurDataURL?: string;
+  width?: number;
+  height?: number;
   isVideo?: boolean;
 }
 
